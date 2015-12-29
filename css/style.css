@@ -1,0 +1,247 @@
+/**{*/
+    /*border: 1px solid green;*/
+/*}*/
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+header{
+
+    height: 20%;
+    max-height: 10rem;
+
+    width: 80%;
+    max-width: 60rem;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+.topBump{
+    width: 100%;
+    height: 8%;
+}
+
+
+.headerLogo{
+    float: left;
+    text-align: center;
+    background-color: #444444;
+
+    height: 100%;
+    width: 20%;
+}
+.headerLogo > img{
+    float: left;
+    height: 100%;
+    width: 100%;
+    color: white;
+
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+.headerNameSlogan{
+    float: left;
+    text-align: left;
+    background-color: #4D4D4F;
+
+    height: 100%;
+    width: 35%;
+}
+.headerNameSlogan > .h1{
+    color: white;
+    font-size: 500%;
+}
+.headerNameSlogan > .p{
+    color: white;
+    font-size: 200%;
+    opacity: .8;
+}
+
+
+.headerMessage{
+    float: left;
+    text-align: center;
+    background-color: #4D4D4F;
+
+    height: 100%;
+    width: 45%;
+}
+.headerMessage > span{
+    color: white;
+    font-size: 250%;
+
+    height: 80%;
+    width: 80%;
+}
+
+
+
+main{
+    background-color: #47afe2;
+
+    height: 120%;
+    max-height: 80rem;
+
+    width: 80%;
+    max-width: 60rem;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+main > section{
+    width: 100%;
+    float: left;
+
+    background-color: #47afe2;
+    color: #4D4D4F;
+
+    font-size: 200%;
+    text-align: center;
+}
+section > .h1{
+    font-size: 250%;
+    color: #444444;
+}
+section > .descriptionP{
+    font-size: 150%;
+}
+.sectionSplit{
+    height: 1%;
+    width: 85%;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    border-bottom: 1px solid #444444;
+}
+.miniGap{
+    float: left;
+    width: 100%;
+    height: 2%;
+    background-color: #47afe2;
+}
+
+.sectionContact{
+    height: 44%;
+}
+.sectionContact > .contacting_options{
+    height: 35%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contacting_options > .contacting_option_left{
+    float: left;
+    width: 64.5%;
+    height: 100%;
+
+    color: white;
+}
+.opt_left_upper{
+    float: left;
+    width: 100%;
+    height: 34%;
+    background-color: #4D4D4F;
+}
+.call{
+    float: left;
+    margin-left: 3%;
+    font-size: 200%;
+}
+.numbers{
+    float: left;
+    margin-left: 7%;
+    font-size: 110%;
+}
+.time{
+    float: right;
+    margin-right: 3%;
+    font-size: 200%;
+}
+.hours{
+    float: right;
+    margin-right: 14%;
+    font-size: 110%;
+}
+.opt_left_lower{
+    float: left;
+    width: 100%;
+    height: 64%;
+    background-color: #4D4D4F;
+}
+
+
+.contacting_options > .contacting_option_right{
+    float: right;
+    width: 34.5%;
+    height: 100%;
+    background-color: #4D4D4F;
+    color: white;
+}
+.opt_right_upper{
+    float: left;
+    width: 100%;
+    height: 34%;
+    font-size: 200%;
+}
+.opt_right_lower{
+    float: left;
+    width: 100%;
+    height: 64%;
+}
+.opt_right_lower > img{
+    height: 100%;
+    max-height: 100%;
+
+    width: 70%;
+    max-width: 100%;
+}
+
+
+.sectionDeals{
+    height: 34%;
+}
+.sectionDeals > .dealPlaceholder{
+    height: 35%;
+
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sectionDeals > .dealPlaceholder > .sectionSpecialDealTxt{
+    float: left;
+}
+.sectionDeals > .dealPlaceholder > .sectionSpecialDealImg{
+    float: right;
+    height: 100%;
+    width: 30%;
+}
+.sectionSpecialDealImg > img{
+    height: 100%;
+    max-height: 100%;
+
+    width: 100%;
+    max-width: 100%;
+}
+
+
+.sectionTips{
+    height: 22%;
+}
+.sectionTips > p > .a1{
+    text-decoration: none;
+    color: white;
+}
+.sectionTips > p > .a2{
+    text-decoration: none;
+    color: black;
+}
